@@ -50,6 +50,10 @@ html {
     gap: 8px;
 }
 
+#main_window p {
+    font-size: larger;
+}
+
 .logo-container {
     display: flex;
     align-items: center;

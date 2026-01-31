@@ -8,6 +8,11 @@ html {
     width: 700px;
 }
 
+#womburger_window {
+    margin: 20px auto;
+    width: 830px;
+}
+
 #logo {
     max-height: 120px;
     height: auto;
@@ -33,6 +38,22 @@ html {
     position: absolute;
     top: 30px;
     left: calc(50% + 350px + 16px);
+}
+
+#womb_left_sidebar_container {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    /* place sidebar to the left of the centered main window:
+       calc(50% - half_main - sidebar_width - gap) */
+    left: calc(50% - 350px - 270px - 16px);
+}
+
+#womb_right_sidebar_container {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: calc(50% + 420px + 16px);
 }
 
 #sidebar, #right_sidebar {
